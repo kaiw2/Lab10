@@ -30,8 +30,8 @@ public class EmployeeDatabase {
     /**
      * Returns the manager for the given employee.
      *
-     * @param employee
-     * @return
+     * @param employee ahosdfkh.
+     * @return manager afldskf.
      */
     Employee findManager(final Employee employee) {
         Employee manager = null;
@@ -50,12 +50,20 @@ public class EmployeeDatabase {
      * Consider both a recursive and an iterative solution to this problem.
      *
      * @param employee name of the employee
-     * @return int
+     * @return int alekf
      */
     public int countManagersAbove(final Employee employee) {
-        /*
-         * Implement this function
-         */
+        int count = 0;
+
+        if (findManager(employee) = null) {
+            return 0;
+        }
+        if (employee = null) {
+            return 0;
+        }
+
+        return this.countManagaerAbove(findManager(employee)) + 1;
+
     }
 
     /**
@@ -67,9 +75,8 @@ public class EmployeeDatabase {
      * @return int
      */
     public int countEmployeesUnder(final Employee employee) {
-        /*
-         * Implement this function
-         */
+       int count = 0;
+       if (employee)
     }
 
     /**

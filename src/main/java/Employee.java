@@ -5,13 +5,15 @@
  */
 public class Employee {
 
+    @SuppressWarnings("checkstyle:visibilitymodifier")
     private String name;
+    @SuppressWarnings("checkstyle:visibilitymodifier")
     private String manager;
 
     /**
      * Constructor for initialization.
-     * @param name
-     * @param manager
+     * @param name klop
+     * @param manager oijlk
      */
     public Employee(final String name, final String manager) {
         this.name = name;
@@ -28,7 +30,7 @@ public class Employee {
 
     /**
      * Setter for name.
-     * @param name
+     * @param name oielakjf
      */
     public void setName(final String name) {
         this.name = name;
@@ -44,7 +46,7 @@ public class Employee {
 
     /**
      * Setter for manager.
-     * @param manager
+     * @param manager ois;jdfkl.
      */
     public void setManager(final String manager) {
         this.manager = manager;
